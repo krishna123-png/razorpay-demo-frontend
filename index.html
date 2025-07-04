@@ -54,6 +54,7 @@
           document.getElementById('result').innerHTML =
             "✅ Payment Successful!<br>Payment ID: " + response.razorpay_payment_id;
         },
+        redirect : true,
         modal: {
           ondismiss: function () {
             document.getElementById('result').innerHTML =
